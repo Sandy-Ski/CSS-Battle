@@ -1,0 +1,77 @@
+<!-- 
+     in this we pasted the same code from the css battle and it gave the same output? CAUSE
+     in this we gave the position value in pixel not in percentage unlike other challenges
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <p class="big"></p><p class="TR"></p><p class="MR"></p><p class="BR"></p><p class="BL"></p><p class="AL"></p>
+<style>
+  section{
+    background:#73385A;
+    height:300px;
+    width:400px;
+  }
+  div{
+    background:#FCDFEB;
+    display:inline-block;
+  }
+  .main{
+    height:120px;
+    width:120px;
+    position:absolute;
+    left:100px;
+    top:35px;
+  }
+  .TR,.AL{
+    height:40px;
+    width:40px;
+    position:absolute;
+  }
+  .TR{
+    top:35px;
+    left:220px;
+  }
+  .AL{
+    top:195px;
+    left:260px;
+  }
+  .BL{
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:155px;
+    left:100px;
+  }
+  .MR{
+    height:40px;
+    width:80px;
+    position:absolute;
+    top:115px;
+    left:220px;
+  }
+  .BR{
+    height:80px;
+    width:40px;
+    position:absolute;
+    top:155px;
+    left:180px;
+  }
+  
+</style>
+</head>
+<body>
+    <section>
+        <div class="main"></div>
+        <div class="TR"></div>
+        <div class="MR"></div>
+        <div class="BR"></div>
+        <div class="BL"></div>
+        <div class="AL"></div>
+    </section>
+    
+</body>
+</html>
